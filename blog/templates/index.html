@@ -7,13 +7,13 @@
 
 {% block content %}
 <div class="link-to-blogs">
-    <h2><a href="% url 'post_list' %">Blogs >></a></h2>
+    <h2><a href="{% url 'post_list' %}">Blogs >></a></h2>
 </div>
 {% endblock%}
 
 {% block footer %}
 <div class="date">
-    <hr width="1250" align="left" size="4">
+    <hr width="1250" align="left" size="4"/>
     <p><h2>{{ date }}</h2></p>
 </div>
 {% endblock%}
